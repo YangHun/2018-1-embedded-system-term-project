@@ -13,7 +13,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 // port setup
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 9000);
 
 app.use(logger('dev'));
 app.use(express.json());
